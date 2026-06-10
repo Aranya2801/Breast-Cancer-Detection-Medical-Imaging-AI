@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyTorch weights (large files — upload separately)
+weights/*.pt
+weights/*.pth
+weights/*.bin
+weights/*.ckpt
+
+# Data (raw data not committed — use DVC or direct download)
+data/raw/
+data/augmented/
+data/processed/*.csv
+
+# Results
+results/predictions/
+results/visualizations/*.png
+results/reports/*.json
+
+# Logs & runs
+runs/
+logs/
+*.log
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Secrets
+.env
+*.env
+kaggle.json
+*_secret*
+*_credentials*
+
+# SQLite database (sessions)
+results/sessions.db
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Temp
+tmp/
+temp/
